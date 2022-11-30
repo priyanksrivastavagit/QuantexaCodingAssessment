@@ -1,0 +1,150 @@
+[0m[[0m[0mdebug[0m] [0m[0mAcquiring lock on file /Users/priyanksrivastava/Documents/Proj_Personal/Priyank/technical-work/QuantexaCodingAssessment/QuantexaAssessment/project/target/.sbt-compilation-infos/root-compile/.sbt-idea-lock ...[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/priyanksrivastava/Documents/Proj_Personal/Priyank/technical-work/QuantexaCodingAssessment/QuantexaAssessment/src/main/scala/com/quantexa/flights/report/LongestRun/LongestRun.scala:5:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.sql.{DataFrame, Row}[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/priyanksrivastava/Documents/Proj_Personal/Priyank/technical-work/QuantexaCodingAssessment/QuantexaAssessment/src/main/scala/com/quantexa/flights/report/LongestRun/LongestRun.scala:6:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.sql.expressions.{UserDefinedFunction, Window}[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/priyanksrivastava/Documents/Proj_Personal/Priyank/technical-work/QuantexaCodingAssessment/QuantexaAssessment/src/main/scala/com/quantexa/flights/report/LongestRun/LongestRun.scala:7:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.sql.functions.{asc, col, collect_list, dense_rank, lit, max, struct, udf}[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/priyanksrivastava/Documents/Proj_Personal/Priyank/technical-work/QuantexaCodingAssessment/QuantexaAssessment/src/main/scala/com/quantexa/flights/report/LongestRun/LongestRun.scala:17:51: not found: type DataFrame[0m
+[0m[[0m[31merror[0m] [0m[0m  def longestRun(DF: DataFrame, country: String): DataFrame = {[0m
+[0m[[0m[31merror[0m] [0m[0m                                                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/priyanksrivastava/Documents/Proj_Personal/Priyank/technical-work/QuantexaCodingAssessment/QuantexaAssessment/src/main/scala/com/quantexa/flights/report/LongestRun/LongestRun.scala:17:22: not found: type DataFrame[0m
+[0m[[0m[31merror[0m] [0m[0m  def longestRun(DF: DataFrame, country: String): DataFrame = {[0m
+[0m[[0m[31merror[0m] [0m[0m                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/priyanksrivastava/Documents/Proj_Personal/Priyank/technical-work/QuantexaCodingAssessment/QuantexaAssessment/src/main/scala/com/quantexa/flights/report/LongestRun/LongestRun.scala:26:45: not found: type DataFrame[0m
+[0m[[0m[31merror[0m] [0m[0m  def generateFlattenFromTo(DF: DataFrame): DataFrame = {[0m
+[0m[[0m[31merror[0m] [0m[0m                                            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/priyanksrivastava/Documents/Proj_Personal/Priyank/technical-work/QuantexaCodingAssessment/QuantexaAssessment/src/main/scala/com/quantexa/flights/report/LongestRun/LongestRun.scala:26:33: not found: type DataFrame[0m
+[0m[[0m[31merror[0m] [0m[0m  def generateFlattenFromTo(DF: DataFrame): DataFrame = {[0m
+[0m[[0m[31merror[0m] [0m[0m                                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/priyanksrivastava/Documents/Proj_Personal/Priyank/technical-work/QuantexaCodingAssessment/QuantexaAssessment/src/main/scala/com/quantexa/flights/report/LongestRun/LongestRun.scala:56:65: not found: type DataFrame[0m
+[0m[[0m[31merror[0m] [0m[0m  def longestRunFromFlightPath(DF: DataFrame, country: String): DataFrame = {[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/priyanksrivastava/Documents/Proj_Personal/Priyank/technical-work/QuantexaCodingAssessment/QuantexaAssessment/src/main/scala/com/quantexa/flights/report/LongestRun/LongestRun.scala:56:36: not found: type DataFrame[0m
+[0m[[0m[31merror[0m] [0m[0m  def longestRunFromFlightPath(DF: DataFrame, country: String): DataFrame = {[0m
+[0m[[0m[31merror[0m] [0m[0m                                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/priyanksrivastava/Documents/Proj_Personal/Priyank/technical-work/QuantexaCodingAssessment/QuantexaAssessment/src/main/scala/com/quantexa/flights/report/LongestRun/LongestRun.scala:28:18: not found: value Window[0m
+[0m[[0m[31merror[0m] [0m[0m    val window = Window.partitionBy("passengerId").orderBy(asc("date"))[0m
+[0m[[0m[31merror[0m] [0m[0m                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/priyanksrivastava/Documents/Proj_Personal/Priyank/technical-work/QuantexaCodingAssessment/QuantexaAssessment/src/main/scala/com/quantexa/flights/report/LongestRun/LongestRun.scala:28:60: not found: value asc[0m
+[0m[[0m[31merror[0m] [0m[0m    val window = Window.partitionBy("passengerId").orderBy(asc("date"))[0m
+[0m[[0m[31merror[0m] [0m[0m                                                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/priyanksrivastava/Documents/Proj_Personal/Priyank/technical-work/QuantexaCodingAssessment/QuantexaAssessment/src/main/scala/com/quantexa/flights/report/LongestRun/LongestRun.scala:37:38: not found: type UserDefinedFunction[0m
+[0m[[0m[31merror[0m] [0m[0m  def findLongestRunOfFlightPathUDF: UserDefinedFunction = udf((flightPath: Seq[Row], country: String) => {[0m
+[0m[[0m[31merror[0m] [0m[0m                                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/priyanksrivastava/Documents/Proj_Personal/Priyank/technical-work/QuantexaCodingAssessment/QuantexaAssessment/src/main/scala/com/quantexa/flights/report/LongestRun/LongestRun.scala:37:60: not found: value udf[0m
+[0m[[0m[31merror[0m] [0m[0m  def findLongestRunOfFlightPathUDF: UserDefinedFunction = udf((flightPath: Seq[Row], country: String) => {[0m
+[0m[[0m[31merror[0m] [0m[0m                                                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/priyanksrivastava/Documents/Proj_Personal/Priyank/technical-work/QuantexaCodingAssessment/QuantexaAssessment/src/main/scala/com/quantexa/flights/report/LongestRun/LongestRun.scala:37:81: not found: type Row[0m
+[0m[[0m[31merror[0m] [0m[0m  def findLongestRunOfFlightPathUDF: UserDefinedFunction = udf((flightPath: Seq[Row], country: String) => {[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/priyanksrivastava/Documents/Proj_Personal/Priyank/technical-work/QuantexaCodingAssessment/QuantexaAssessment/src/main/scala/com/quantexa/flights/report/LongestRun/LongestRun.scala:43:50: not found: type Row[0m
+[0m[[0m[31merror[0m] [0m[0m  def FindLongestRunOfFlightPath(flightPath: Seq[Row], country: String): Int = {[0m
+[0m[[0m[31merror[0m] [0m[0m                                                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/priyanksrivastava/Documents/Proj_Personal/Priyank/technical-work/QuantexaCodingAssessment/QuantexaAssessment/src/main/scala/com/quantexa/flights/report/LongestRun/LongestRunApp.scala:5:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.sql.{DataFrame, Row}[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/priyanksrivastava/Documents/Proj_Personal/Priyank/technical-work/QuantexaCodingAssessment/QuantexaAssessment/src/main/scala/com/quantexa/flights/report/LongestRun/LongestRunApp.scala:6:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.sql.expressions.{UserDefinedFunction, Window}[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/priyanksrivastava/Documents/Proj_Personal/Priyank/technical-work/QuantexaCodingAssessment/QuantexaAssessment/src/main/scala/com/quantexa/flights/report/LongestRun/LongestRunApp.scala:7:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.sql.functions.{asc, col, collect_list, dense_rank, lit, max, struct, udf}[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/priyanksrivastava/Documents/Proj_Personal/Priyank/technical-work/QuantexaCodingAssessment/QuantexaAssessment/src/main/scala/com/quantexa/flights/report/LongestRun/LongestRunApp.scala:13:17: not found: type DataFrame[0m
+[0m[[0m[31merror[0m] [0m[0m  def solve(DF: DataFrame, country: String = "uk", outputDir: String) = {[0m
+[0m[[0m[31merror[0m] [0m[0m                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/priyanksrivastava/Documents/Proj_Personal/Priyank/technical-work/QuantexaCodingAssessment/QuantexaAssessment/src/main/scala/com/quantexa/flights/report/LongestRun/LongestRunApp.scala:18:56: not found: type DataFrame[0m
+[0m[[0m[31merror[0m] [0m[0m    val mergeFromTo = mergeFromToMethod.longestRun(DF: DataFrame, country: String)[0m
+[0m[[0m[31merror[0m] [0m[0m                                                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/priyanksrivastava/Documents/Proj_Personal/Priyank/technical-work/QuantexaCodingAssessment/QuantexaAssessment/src/main/scala/com/quantexa/flights/report/LongestRun/LongestRunCsvWriter.scala:5:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.sql.{DataFrame, SparkSession}[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/priyanksrivastava/Documents/Proj_Personal/Priyank/technical-work/QuantexaCodingAssessment/QuantexaAssessment/src/main/scala/com/quantexa/flights/report/LongestRun/LongestRunCsvWriter.scala:9:51: not found: type DataFrame[0m
+[0m[[0m[31merror[0m] [0m[0m  def writeOutput(fileName: String, longestRunDF: DataFrame): Unit = {[0m
+[0m[[0m[31merror[0m] [0m[0m                                                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/priyanksrivastava/Documents/Proj_Personal/Priyank/technical-work/QuantexaCodingAssessment/QuantexaAssessment/src/main/scala/com/quantexa/flights/report/LongestRun/LongestRunApp.scala:21:70: not found: type DataFrame[0m
+[0m[[0m[31merror[0m] [0m[0m    LongestRunCsvWriter.writeOutput(outputFile: String, mergeFromTo: DataFrame)[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/priyanksrivastava/Documents/Proj_Personal/Priyank/technical-work/QuantexaCodingAssessment/QuantexaAssessment/src/main/scala/com/quantexa/flights/report/common/outputFileWriterDF.scala:7:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.sql.functions._[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/priyanksrivastava/Documents/Proj_Personal/Priyank/technical-work/QuantexaCodingAssessment/QuantexaAssessment/src/main/scala/com/quantexa/flights/report/common/outputFileWriterDF.scala:6:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.sql.{DataFrame, SparkSession}[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/priyanksrivastava/Documents/Proj_Personal/Priyank/technical-work/QuantexaCodingAssessment/QuantexaAssessment/src/main/scala/com/quantexa/flights/report/common/outputFileWriterDF.scala:11:47: not found: type DataFrame[0m
+[0m[[0m[31merror[0m] [0m[0m  def writeTo(fileName: String, outputDataDF: DataFrame): Unit = {[0m
+[0m[[0m[31merror[0m] [0m[0m                                              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/priyanksrivastava/Documents/Proj_Personal/Priyank/technical-work/QuantexaCodingAssessment/QuantexaAssessment/src/main/scala/com/quantexa/flights/report/PassengerPair/PassengerPair.scala:3:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.sql.{DataFrame, Row}[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/priyanksrivastava/Documents/Proj_Personal/Priyank/technical-work/QuantexaCodingAssessment/QuantexaAssessment/src/main/scala/com/quantexa/flights/report/PassengerPair/PassengerPair.scala:4:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.sql.expressions.{UserDefinedFunction, Window}[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/priyanksrivastava/Documents/Proj_Personal/Priyank/technical-work/QuantexaCodingAssessment/QuantexaAssessment/src/main/scala/com/quantexa/flights/report/PassengerPair/PassengerPair.scala:5:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.sql.functions.{asc, col, collect_list, dense_rank, lit, max, struct, udf, count}[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/priyanksrivastava/Documents/Proj_Personal/Priyank/technical-work/QuantexaCodingAssessment/QuantexaAssessment/src/main/scala/com/quantexa/flights/report/PassengerPair/PassengerPair.scala:12:37: not found: type DataFrame[0m
+[0m[[0m[31merror[0m] [0m[0m  def passengerPair(df: DataFrame): DataFrame = {[0m
+[0m[[0m[31merror[0m] [0m[0m                                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/priyanksrivastava/Documents/Proj_Personal/Priyank/technical-work/QuantexaCodingAssessment/QuantexaAssessment/src/main/scala/com/quantexa/flights/report/PassengerPair/PassengerPair.scala:12:25: not found: type DataFrame[0m
+[0m[[0m[31merror[0m] [0m[0m  def passengerPair(df: DataFrame): DataFrame = {[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/priyanksrivastava/Documents/Proj_Personal/Priyank/technical-work/QuantexaCodingAssessment/QuantexaAssessment/src/main/scala/com/quantexa/flights/report/PassengerPair/PassengerPairApp.scala:5:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.sql.DataFrame[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/priyanksrivastava/Documents/Proj_Personal/Priyank/technical-work/QuantexaCodingAssessment/QuantexaAssessment/src/main/scala/com/quantexa/flights/report/PassengerPair/PassengerPairApp.scala:9:17: not found: type DataFrame[0m
+[0m[[0m[31merror[0m] [0m[0m  def solve(DF: DataFrame, outputDir: String) = {[0m
+[0m[[0m[31merror[0m] [0m[0m                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/priyanksrivastava/Documents/Proj_Personal/Priyank/technical-work/QuantexaCodingAssessment/QuantexaAssessment/src/main/scala/com/quantexa/flights/report/PassengerPair/PassengerPairApp.scala:14:65: not found: type DataFrame[0m
+[0m[[0m[31merror[0m] [0m[0m    val passengerPairDF = passengerPairMethod.passengerPair(DF: DataFrame)[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/priyanksrivastava/Documents/Proj_Personal/Priyank/technical-work/QuantexaCodingAssessment/QuantexaAssessment/src/main/scala/com/quantexa/flights/report/PassengerPair/PassengerPairCsvWriter.scala:4:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.sql.DataFrame[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/priyanksrivastava/Documents/Proj_Personal/Priyank/technical-work/QuantexaCodingAssessment/QuantexaAssessment/src/main/scala/com/quantexa/flights/report/PassengerPair/PassengerPairCsvWriter.scala:8:51: not found: type DataFrame[0m
+[0m[[0m[31merror[0m] [0m[0m  def writeOutput(fileName: String, longestRunDF: DataFrame): Unit = {[0m
+[0m[[0m[31merror[0m] [0m[0m                                                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/priyanksrivastava/Documents/Proj_Personal/Priyank/technical-work/QuantexaCodingAssessment/QuantexaAssessment/src/main/scala/com/quantexa/flights/report/PassengerPair/PassengerPairApp.scala:17:77: not found: type DataFrame[0m
+[0m[[0m[31merror[0m] [0m[0m    PassengerPairCsvWriter.writeOutput(outputFile: String, passengerPairDF: DataFrame)[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/priyanksrivastava/Documents/Proj_Personal/Priyank/technical-work/QuantexaCodingAssessment/QuantexaAssessment/src/main/scala/com/quantexa/flights/report/common/Main.scala:7:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.log4j.{Level, Logger}[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/priyanksrivastava/Documents/Proj_Personal/Priyank/technical-work/QuantexaCodingAssessment/QuantexaAssessment/src/main/scala/com/quantexa/flights/report/common/Main.scala:8:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.sql.{DataFrame, SparkSession}[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/priyanksrivastava/Documents/Proj_Personal/Priyank/technical-work/QuantexaCodingAssessment/QuantexaAssessment/src/main/scala/com/quantexa/flights/report/common/Main.scala:9:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.sql.functions._[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/priyanksrivastava/Documents/Proj_Personal/Priyank/technical-work/QuantexaCodingAssessment/QuantexaAssessment/src/main/scala/com/quantexa/flights/report/common/Main.scala:16:32: not found: type SparkSession[0m
+[0m[[0m[31merror[0m] [0m[0m    def getCreateSparkSession: SparkSession = {[0m
+[0m[[0m[31merror[0m] [0m[0m                               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/priyanksrivastava/Documents/Proj_Personal/Priyank/technical-work/QuantexaCodingAssessment/QuantexaAssessment/src/main/scala/com/quantexa/flights/report/common/Main.scala:17:7: not found: value SparkSession[0m
+[0m[[0m[31merror[0m] [0m[0m      SparkSession.builder[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/priyanksrivastava/Documents/Proj_Personal/Priyank/technical-work/QuantexaCodingAssessment/QuantexaAssessment/src/main/scala/com/quantexa/flights/report/common/Main.scala:23:66: not found: type DataFrame[0m
+[0m[[0m[31merror[0m] [0m[0m    def processSourceCSV(spark: SparkSession, fileName: String): DataFrame = {[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/priyanksrivastava/Documents/Proj_Personal/Priyank/technical-work/QuantexaCodingAssessment/QuantexaAssessment/src/main/scala/com/quantexa/flights/report/common/Main.scala:23:33: not found: type SparkSession[0m
+[0m[[0m[31merror[0m] [0m[0m    def processSourceCSV(spark: SparkSession, fileName: String): DataFrame = {[0m
+[0m[[0m[31merror[0m] [0m[0m                                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/priyanksrivastava/Documents/Proj_Personal/Priyank/technical-work/QuantexaCodingAssessment/QuantexaAssessment/src/main/scala/com/quantexa/flights/report/common/Main.scala:33:16: not found: type SparkSession[0m
+[0m[[0m[31merror[0m] [0m[0m    val spark: SparkSession = getCreateSparkSession[0m
+[0m[[0m[31merror[0m] [0m[0m               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/priyanksrivastava/Documents/Proj_Personal/Priyank/technical-work/QuantexaCodingAssessment/QuantexaAssessment/src/main/scala/com/quantexa/flights/report/common/Main.scala:44:23: not found: type DataFrame[0m
+[0m[[0m[31merror[0m] [0m[0m    val flightDataDF: DataFrame = processSourceCSV(spark, flightData)[0m
+[0m[[0m[31merror[0m] [0m[0m                      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/priyanksrivastava/Documents/Proj_Personal/Priyank/technical-work/QuantexaCodingAssessment/QuantexaAssessment/src/main/scala/com/quantexa/flights/report/common/Main.scala:45:27: not found: type DataFrame[0m
+[0m[[0m[31merror[0m] [0m[0m    val passengersDataDF: DataFrame = processSourceCSV(spark, passengersData)[0m
+[0m[[0m[31merror[0m] [0m[0m                          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/priyanksrivastava/Documents/Proj_Personal/Priyank/technical-work/QuantexaCodingAssessment/QuantexaAssessment/src/main/scala/com/quantexa/flights/report/common/Main.scala:54:62: not found: type DataFrame[0m
+[0m[[0m[31merror[0m] [0m[0m    val passengerPair = PassengerPairApp.solve(flightDataDF: DataFrame, outputDir: String)[0m
+[0m[[0m[31merror[0m] [0m[0m                                                             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/priyanksrivastava/Documents/Proj_Personal/Priyank/technical-work/QuantexaCodingAssessment/QuantexaAssessment/src/main/scala/com/quantexa/flights/report/common/outputFileWriterDF.scala:5:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.log4j.{Level, Logger}[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m49 errors found[0m
+[0m[[0m[0mdebug[0m] [0m[0mReleasing lock on file /Users/priyanksrivastava/Documents/Proj_Personal/Priyank/technical-work/QuantexaCodingAssessment/QuantexaAssessment/project/target/.sbt-compilation-infos/root-compile/.sbt-idea-lock.[0m
