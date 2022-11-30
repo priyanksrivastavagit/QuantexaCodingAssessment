@@ -117,10 +117,12 @@ From the aforementioned directory structure, the directory "/src/main/scala/com/
 
 Inside the report directory, there's a folder for each problem statement with the scala code. 
 Each folder contain 3 scala files --
+```
         1. The file suffixed with `App` is called by the main function and it executes the other 2 files. 
         2. The scala file suffixed with `CsvWriter` writes the output of the problem statement in a csv file and stores the data under "/src/main/outputSolutions/<ProblemStatementFolder>/
         3. The file with no prefix & suffix is the one with the main logic to solve the problems.
-        
+ ```
+ 
 #### _SCALA ONLY_
 Question - 1: This problem was solved using basic scala functional programming.
 Question - 2: This problem was solved using basic scala functional programming. 
