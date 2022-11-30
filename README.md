@@ -124,13 +124,13 @@ Each folder contain 3 scala files --
  ```
  
 #### _SCALA ONLY_
-Question - 1: This problem was solved using basic scala functional programming.
-Question - 2: This problem was solved using basic scala functional programming. 
+##### Question - 1: This problem was solved using basic scala functional programming.
+##### Question - 2: This problem was solved using basic scala functional programming. 
 
 #### _SPARK-SCALA_
-Question - 3: This problem was solved using Spark-Scala programming using dataframes.The solution is provided based on the assumption that we needed to report the complete list of countries and NOT only the distinct list of countries.
-Question - 4: This problem was solved using Spark-Scala programming using dataframes.
-Question - 4.1: This problem was solved using Spark-Scala programming using dataframes. This is an extension of "Question - 4" with date range parameters added.
+##### Question - 3: This problem was solved using Spark-Scala programming using dataframes.The solution is provided based on the assumption that we needed to report the complete list of countries and NOT only the distinct list of countries.
+##### Question - 4: This problem was solved using Spark-Scala programming using dataframes.
+##### Question - 4.1: This problem was solved using Spark-Scala programming using dataframes. This is an extension of "Question - 4" with date range parameters added.
 
 
 ## Test:
