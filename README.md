@@ -6,8 +6,10 @@ Please note, the questions are answered in a mix format i.e.
 --> Question 1 & Question 2: SCALA ONLY code
 --> Question 3 & Question 4: SPARK-SCALA code
 
-Directory Structure:
+## Directory Structure:
 
+
+```
 QuantexaCodingAssessment
 |
 |--src
@@ -19,12 +21,12 @@ QuantexaCodingAssessment
    |   |       |--LongestRun
    |   |       |       part-xxxx-xxxx.csv
    |   |       |--PassengerPair
-   |   |      |       part-xxxx-xxxx.csv
-   |   |      |--PassengerPairDateRange
-   |   |      |       part-xxxx-xxxx.csv
-   |   |      |--TotalFlightsPerMonth
-   |   |      |       part-xxxx-xxxx.csv
-   |   |      |--TotalNumberOfFlights
+   |   |       |       part-xxxx-xxxx.csv
+   |   |       |--PassengerPairDateRange
+   |   |       |       part-xxxx-xxxx.csv
+   |   |       |--TotalFlightsPerMonth
+   |   |       |       part-xxxx-xxxx.csv
+   |   |       |--TotalNumberOfFlights
    |   |              part-xxxx-xxxx.csv
    |   |
    |   |--resource
@@ -96,9 +98,9 @@ QuantexaCodingAssessment
                               |
                               |--TotalNumberOfFlights
                               |       TotalNumberOfFlightsSpec.scala 
+```
                 
-                
-Code Overview:
+## Code Overview:
 
 In the aforementioned tree, under "/src/main/scala/com/quantexa/flights/report/common", 
         1. Main.scala(Spark-Scala) is the executing script which will execute the code for all the questions sequentially. 
@@ -115,29 +117,29 @@ Each folder contain 3 scala files --
         2. The scala file suffixed with "CsvWriter" writes the output of the problem statement in a csv file and stores the data under "/src/main/outputSolutions/<ProblemStatementFolder>/
         3. The file with no prefix & suffix is the one with the main logic to solve the problems.
         
-SCALA ONLY
+#### _SCALA ONLY_
 Question - 1: This problem was solved using basic scala functional programming.
 Question - 2: This problem was solved using basic scala functional programming. 
 
-SPARK-SCALA
+#### _SPARK-SCALA_
 Question - 3: This problem was solved using Spark-Scala programming using dataframes.The solution is provided based on the assumption that we needed to report the complete list of countries and NOT only the distinct list of countries.
 Question - 4: This problem was solved using Spark-Scala programming using dataframes.
 Question - 4.1: This problem was solved using Spark-Scala programming using dataframes. This is an extension of "Question - 4" with date range parameters added.
 
 
-Test:
+## Test:
 
 The test code is placed under "src/test/scala/com.quantexa/flights/report/<ProblemStatementFolder>/. Due to time constraint, I have covered basic positive test cases for all the problems using scalatest(https://www.scalatest.org/).
 
 
 
-Assumptions:
+## Assumptions:
 
         1. Passengers fly only once in a given day  as the flight date do not store any timestamp value for intra-day travel.
         2. The only mode of travel is flight i.e. once the data is arranged by date for a passenger, the preceding "to" value should be in the "from" column for the next record.
         
         
-Experience and self-reflection:
+## Experience and self-reflection:
 
-Coming from a ETL/SQL/database background, deep-dive into a completely new world of programming language is certainly challenging. I have been exposed to some functional programming using Python, but to solve the problems using scala was both interesting and challenging. Even though all the problems are solved and yielding the desirec outcome, these may be fine tuned more in terms of time ans space complexity.
+Coming from a ETL/SQL/database background, deep-dive into a completely new world of programming language is certainly challenging and interesting. I have been exposed to some functional programming using Python, but to solve the problems using scala was both interesting and challenging. Even though all the problems are solved and yielding the desirec outcome, these may be fine tuned more in terms of time ans space complexity.
 
