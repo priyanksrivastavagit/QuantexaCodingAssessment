@@ -102,19 +102,23 @@ QuantexaCodingAssessment
                 
 ## Code Overview:
 
-In the aforementioned tree, under "/src/main/scala/com/quantexa/flights/report/common", 
-        1. Main.scala(Spark-Scala) is the executing script which will execute the code for all the questions sequentially. 
-        2. Flights - Creates a case class to store the flights data
-        3. Passengers - Creates a case class to store the passengers data
-        4. flightsFileReader - Reads the flights csv data and stores the data in the case class
-        5. passengersFileReader - Reads the passengers csv data and stores the data in the case class
-        6. outFileWriter - This file writes the result set from a List[Case Class] into a output csv file (Question - 1,2)
-        7. outFileWriterDF - This file writes the result set from a dataframe into a output csv file(Question - 3,4,4.1)
+
+From the aforementioned directory structure, the directory "/src/main/scala/com/quantexa/flights/report/common" contains: 
+
+- #### _Main.scala(Spark-Scala)_ is the executing script which will execute the code for all the questions sequentially.
+- #### _Flights_ - Creates a case class to store the flights data
+- #### _Passengers_ - Creates a case class to store the passengers data
+- #### _flightsFileReader_ - Reads the flights csv data and stores the data in the case class
+- #### _passengersFileReader_ - Reads the passengers csv data and stores the data in the case class
+- #### _outFileWriter_ - `This file writes the result set from a List[Case Class] into a csv file (Question - 1,2)`
+- #### _outFileWriterDF_ - `This file writes the result set from a `DataFrame` into a csv file(Question - 3,4,4.1)`
+        
+
 
 Inside the report directory, there's a folder for each problem statement with the scala code. 
 Each folder contain 3 scala files --
-        1. The file suffixed with "App" is called by the main function and the "App" file executes the other 2 files. 
-        2. The scala file suffixed with "CsvWriter" writes the output of the problem statement in a csv file and stores the data under "/src/main/outputSolutions/<ProblemStatementFolder>/
+        1. The file suffixed with `App` is called by the main function and it executes the other 2 files. 
+        2. The scala file suffixed with `CsvWriter` writes the output of the problem statement in a csv file and stores the data under "/src/main/outputSolutions/<ProblemStatementFolder>/
         3. The file with no prefix & suffix is the one with the main logic to solve the problems.
         
 #### _SCALA ONLY_
